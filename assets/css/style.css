@@ -72,39 +72,5 @@ button {
 button a {
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
-/* 
-
-
-figure {
-    position: relative;
-    margin: 10px;
-    border-color: var(--main-colour);
-    border-width: 5px 5px 0px 5px;
-    border-style: solid;
-    background-color: var(--main-colour);
-}
-
-figcaption {
-    position: absolute;
-    bottom: 15px;
-    left: 0px;
-    background-color: var(--main-translucent);
-    padding: 15px;
-}
-
-h3 {
-    margin: 0;
-    padding: 0;
-}
-
-article a {
-    color: var(--font-colour);
-}
-
-
-
-
-
-
-*/
