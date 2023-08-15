@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    --main-colour: rgb(41, 189, 193);
+    --main-translucent: rgba(41, 189, 193, 0.7);
+    --font-colour: black;
+}
+
+header {
+    background-color: var(--main-colour);
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+h1, #subtitle {
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    flex: 1 0 120px;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+nav li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--font-colour);
+    font-size: x-large;
+}
+
+.container {
+    max-width: 1920px;
+    margin-top: 5rem;
+}
+
+address {
+    padding: 20px;
+}
+
+address div {
+    width: 100%;
+    padding-bottom: 10px;
+    height: 100px;
+}
+
+address div img {
+    height: 100px;
+    width: 100px;
+}
+
+address div a {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: large;
+}
+
+button {
+    background-color: var(--main-colour);
+}
+
+button a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    border-left: 5px;
+    border-color: var(--main-colour);
+    border-left-style: solid;
+    padding-left: 20px;
+}
+/* 
+
+
+figure {
+    position: relative;
+    margin: 10px;
+    border-color: var(--main-colour);
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    background-color: var(--main-colour);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    background-color: var(--main-translucent);
+    padding: 15px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+article a {
+    color: var(--font-colour);
+}
+
+
+
+
+
+
+*/
